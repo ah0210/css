@@ -1,0 +1,55 @@
+
+https://www.html.cn/archives/5824
+
+http://samherbert.net/svg-loaders/
+
+https://loading.io/
+
+转换方法：
+
+https://codepen.io/jakob-e/pen/doMoML
+
+使用方法：
+
+.list-content .list img { width: 360px; height: 220px; background: #fff url("data:image/svg+xml,%3Csvg width='38' height='38' viewBox='0 0 38 38' xmlns='http://www.w3.org/2000/svg' stroke='%23000'%3E %3Cg fill='none' fill-rule='evenodd'%3E %3Cg transform='translate(1 1)' stroke-width='2'%3E %3Ccircle stroke-opacity='.5' cx='18' cy='18' r='18'/%3E %3Cpath d='M36 18c0-9.94-8.06-18-18-18'%3E %3CanimateTransform attributeName='transform' type='rotate' from='0 18 18' to='360 18 18' dur='1s' repeatCount='indefinite'/%3E %3C/path%3E %3C/g%3E %3C/g%3E %3C/svg%3E") 50% no-repeat;}
+
+在这些情况下，我们一般会用到（加载）loading动画，提示于用户页面在加载中，这些UX常识我想很多设计师都懂。今天分享几个仅用CSS3和SVG实现几个loading动画效果。
+Loaders.css
+
+令人愉快的和注重性能的纯CSS加载动画。
+
+演示：https://connoratherton.com/loaders
+
+Github：https://github.com/ConnorAtherton/loaders.css
+loading.io
+
+通过SVG / CSS / GIF打造Ajax加载图标！
+
+网址：http://loading.io/
+spinkit
+
+CSS加载动画集合。
+
+演示：http://tobiasahlin.com/spinkit/
+
+Github：https://github.com/tobiasahlin/SpinKit
+收集的SVG Loading 动画
+
+codepen中分享的几个SVG loading 动画（加载有点慢）
+
+几个常用的SVG?loading 动画
+
+演示：http://samherbert.net/svg-loaders/
+
+Github：https://github.com/SamHerbert/SVG-Loaders
+更多loading动画
+
+网上搜索了一下，这里已经收集了很多，我就不再收集了:https://codegeekz.com/best-css-svg-loaders-and-spinners/
+
+ 
+
+===============以下是以前分享的网站内容===============
+
+现在 CSS3 越来越流行，CSS3 动画效果更是给开发者带来了很多便利，我们可以很方便的使用 CSS3 和 JavaScript 来做出很酷炫的加载动画，推荐两个css3 loading 动画集合。
+1.一个是令人愉快的和表现力丰富的纯CSS加载动画：https://connoratherton.com/loaders
+2.Tim Holman在codepen.io上收集的css3 loading动画集合：http://codepen.io/collection/HtAne/
